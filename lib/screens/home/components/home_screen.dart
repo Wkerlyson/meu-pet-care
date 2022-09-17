@@ -12,14 +12,14 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
-      body: const Body(),
+      body: Body(),
     );
   }
 
   AppBar buildAppBar() {
     return AppBar(
       systemOverlayStyle: const SystemUiOverlayStyle(
-        statusBarColor: kBackgroundColor,
+        statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark,
         statusBarBrightness: Brightness.light,
       ),
